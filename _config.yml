@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Itay Hubara / PhD"
 title_separator          : "-"
 name                     : &name "Itay Hubara"
-description              : &description "Itay Hubara is a research scientist at Habana Labs, a company that develops AI accelerators for deep learning. He is also a PhD candidate at the Technion - Israel Institute of Technology, where he works on quantized neural networks and sparse neural training. He is one of the contributors to the MLPerf inference benchmark, a standard for measuring the performance of machine learning systems. He has published several papers in top conferences and journals, such as NeurIPS, CVPR, and JMLR, and has received more than 10,000 citations for his work. His research interests include deep learning, computer vision, and hardware-software co-design."
+description              : &description "Techion Alumnai; MLPerf member;  Senior research scientist at Habana Labs."
 url                      : https://itayhubara.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "itayhubara.github.io"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Itay Hubara"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Itay Hubara is a senior research scientist at Habana Labs, a company that develops AI accelerators for deep learning. He is also a PhD candidate at the Technion - Israel Institute of Technology, where he works on quantized neural networks and sparse neural training. He is one of the contributors to the MLPerf inference benchmark, a standard for measuring the performance of machine learning systems. He has published several papers in top conferences and journals, such as NeurIPS, CVPR, and JMLR, and has received more than 10,000 citations for his work. His research interests include deep learning, computer vision, and hardware-software co-design."
+  location         : "Israel"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
