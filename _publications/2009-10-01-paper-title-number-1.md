@@ -1,7 +1,7 @@
 ---
 title: "Towards Cheaper Inference in Deep Networks with Lower Bit-Width Accumulators"
 collection: publications
-permalink: /publication/2023-12-Towards-Cheaper-Inference-in-Deep-Networks-with-Lower-Bit-Width-Accumulators
+permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'The majority of the research on the quantization of Deep Neural Networks (DNNs) is focused on reducing the precision of tensors visible by high-level frameworks (e.g., weights, activations, and gradients). However, current hardware still relies on high-accuracy core operations. Most significant is the operation of accumulating products. This high-precision accumulation operation is gradually becoming the main computational bottleneck. This is because, so far, the usage of low-precision accumulators led to a significant degradation in performance. In this work, we present a simple method to train and fine-tune high-end DNNs, to allow, for the first time, utilization of cheaper, -bits accumulators, with no significant degradation in accuracy. Lastly, we show that as we decrease the accumulation precision further, using fine-grained gradient approximations can improve the DNN accuracy.'
 date: 2023-12
 venue: 'WANT@NeurIPS'
