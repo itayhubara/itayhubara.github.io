@@ -6,10 +6,10 @@ excerpt: 'The majority of the research on the quantization of Deep Neural Networ
 date: 2023-12
 venue: 'WANT@NeurIPS'
 paperurl: '[WANT@NeurIPS](https://openreview.net/forum?id=wMbe8fVjgf)'
-citation: 'Yaniv.B, Itay.H, Daniel.S (2023). &quot;Towards Cheaper Inference in Deep Networks with Lower Bit-Width Accumulators.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Yaniv.B, Itay.H, Daniel.S (2023). &quot; Towards Cheaper Inference in Deep Networks with Lower Bit-Width Accumulators.&quot; <i>Journal 1</i>. 1(1).'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](https://openreview.net/pdf?id=wMbe8fVjgf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>WANT@NeurIPS</i>. 1(1).
+Recommended citation: Yaniv.B, Itay.H, Daniel.S (2023). "Towards Cheaper Inference in Deep Networks with Lower Bit-Width Accumulators." <i>WANT@NeurIPS</i>. 1(1).
