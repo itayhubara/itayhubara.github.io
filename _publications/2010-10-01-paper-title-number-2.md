@@ -6,7 +6,7 @@ excerpt: 'In deep learning, fine-grained N:M sparsity reduces the data footprint
 date: 2022-04-16
 venue: 'The Eleventh International Conference on Learning Representations'
 paperurl: '[link to paper](https://openreview.net/pdf?id=vuD2xEtxZcj)'
-citation: 'Brian.C, Itay.H, Ron.B, Daniel.S (2021). &quot; Minimum variance unbiased n: M sparsity for the neural gradient.&quot; <i>ICLR 2022</i>. 1(2).'
+citation: 'Brian.C, Itay.H, Ron.B, Daniel.S (2022). &quot; Minimum variance unbiased n: M sparsity for the neural gradient.&quot; <i>ICLR 2022</i>. 1(2).'
 ---
 This paper is about the number 2. The number 3 is left for future work.
 
