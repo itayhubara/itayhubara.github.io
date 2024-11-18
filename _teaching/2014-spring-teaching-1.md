@@ -1,20 +1,11 @@
 ---
 title: "Teaching experience 1"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate ML labs"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "Technion Israel Institute of Technology"
 date: 2014-01-01
-location: "City, Country"
+location: "Haifa, Israel"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+ML basic lab course - hands on python/matlab algorithms such as Naive Bayes, KNN, SVM
