@@ -39,15 +39,15 @@ Skills
 ======
 * Algorithm
   * Machine learning/ Deep learning
-  * Nural Languge Processing (LLM,
-  * Computer vision (Detection,segmentation recognition) 
-  * Optimization
+  * Neural Languge Processing: LLMs starting from older versions sucha as LSTM to the newer decoder basde models (Llama/MoE/GPT)
+  * Computer vision: Detection,segmentation recognition
+  * Optimization: Quantization (FP8/FP4), sparsification (block-sparse,unstructured), LLMs inference acceleration serving solutions (vLLM/TGI)
   * Combinatorical problems (Integer\Linear) programing
 * Coding
   * Python, Pytorch, TF, Cuda, C++
   * Github fouent 
-* MLPerf
-  * Benchmark owner 
+* MLPerf (training/inference)
+  * Benchmark owner (old SSD/ Llama-70B-Lora)
   * Leading Habana efforts and representing the company in all MLPerf meetings
 
 
