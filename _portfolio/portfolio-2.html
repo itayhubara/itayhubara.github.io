@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CSV Viewer</title>
-    <script>
-        async function loadCSV() {
-            // Path to your CSV file in the repository
-            const response = await fetch(''../_portfolio/analyst_summary.csv');
-            const csvText = await response.text();
-            
-            const rows = csvText.split('\n').map(row => row.split(','));
-            
-            // Generate a table
-            const table = document.createElement('table');
-            table.border = "1";
-            rows.forEach((row, index) => {
-                const tr = document.createElement('tr');
-                row.forEach(cell => {
-                    const cellElement = document.createElement(index === 0 ? 'th' : 'td');
-                    cellElement.textContent = cell.trim();
-                    tr.appendChild(cellElement);
-                });
-                table.appendChild(tr);
-            });
-
-            document.getElementById('csv-container').appendChild(table);
-        }
-
-        // Load the CSV on page load
-        window.onload = loadCSV;
-    </script>
-</head>
-<body>
-    <h1>CSV Viewer</h1>
-    <div id="csv-container"></div>
-</body>
-</html>
+---
+title: "Portfolio item number 2"
+excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+-- place CSV
