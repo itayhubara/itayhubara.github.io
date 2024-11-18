@@ -10,74 +10,17 @@ This is a detailed description of portfolio item number 2.
 
 ## CSV Data Table
 
-<table border="1">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Profession</th>
-    </tr>
-    <tr>
-        <td>John Doe</td>
-        <td>30</td>
-        <td>Web Developer</td>
-    </tr>
-    <tr>
-        <td>Jane Smith</td>
-        <td>25</td>
-        <td>Graphic Designer</td>
-    </tr>
-    <tr>
-        <td>Emily Johnson</td>
-        <td>35</td>
-        <td>Product Manager</td>
-    </tr>
-</table>
-
 <div id="csv-container">
     <!-- The table will be inserted here by JavaScript -->
 </div>
 
 <script>
     async function loadCSV() {
-        try {
-            // Adjust the path to where the CSV file is located
-            const response = await fetch('./assets/analyst_summary.csv'); // Make sure this path is correct
-            if (!response.ok) throw new Error('Failed to fetch CSV');
-            const csvText = await response.text();
-
-            // Split the CSV into rows
-            const rows = csvText.split('\n').map(row => row.split(','));
-
-            // Find the placeholder div to insert the table
-            const container = document.getElementById('csv-container');
-
-            // Create the table element
-            const table = document.createElement('table');
-            table.border = "1"; // Add a border for better visibility
-
-            // Loop through the rows of CSV and create table rows
-            rows.forEach((row, index) => {
-                const tr = document.createElement('tr');
-
-                // Create table data (td) or header (th) based on row index
-                row.forEach(cell => {
-                    const cellElement = document.createElement(index === 0 ? 'th' : 'td');
-                    cellElement.textContent = cell.trim();
-                    tr.appendChild(cellElement);
-                });
-
-                // Append the row to the table
-                table.appendChild(tr);
-            });
-
-            // Append the table to the placeholder div
-            container.appendChild(table);
-        } catch (error) {
-            console.error('Error loading CSV:', error);
-            document.getElementById('csv-container').textContent = 'Error loading CSV file.';
-        }
+        const response = await fetch('/assets/data.csv');  // Adjust file path as needed
+        if (!response.ok) throw new Error('Failed to fetch CSV');
+        const csvText = await response.text();
+        console.log('CSV Data:', csvText);  // Check if the CSV data is fetched
     }
 
-    // Run the function to load the CSV when the page loads
     window.onload = loadCSV;
 </script>
