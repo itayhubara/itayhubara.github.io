@@ -5,7 +5,7 @@
     <script>
         async function loadCSV() {
             // Path to your CSV file in the repository
-            const response = await fetch('data.csv');
+            const response = await fetch('analyst_summary.csv');
             const csvText = await response.text();
             
             const rows = csvText.split('\n').map(row => row.split(','));
