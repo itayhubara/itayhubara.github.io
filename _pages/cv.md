@@ -61,34 +61,46 @@ Awards
   
 Publications
 ======
-Publications
-• Chmiel, B., Hubara, I., Banner, R., & Soudry, D. (2022). Optimal Fine-Grained N: M sparsity for
-Activations and Neural Gradients. ICLR 2023.
-• Hubara, I., Chmiel, B., Island, M., Banner, R., Naor, S., Soudry, D., Accelerated Sparse Neural Training: A
-Provable and Efficient Method to Find N: M Transposable Masks. NeurIPS 2021
-• Hubara, I., Nahshan, Y., Hanani, Y., Banner, R., & Soudry, D. Accurate Post Training Quantization With
-Small Calibration Sets. ICML 2021
-• Hoffer, E., Ben-Nun, T., Hubara, I., Giladi, N., Hoefler, T., & Soudry, D. Augment Your Batch: Improving
-Generalization Through Instance Repetition. CVPR 2020
+E Kinderman, **I Hubara**, H Maron, D Soudry Foldable _SuperNets: Scalable Merging of Transformers with Different Initializations and Tasks._ arxiv preprint 2024
 
-• Haroush, Matan, Itay Hubara, Elad Hoffer, and Daniel Soudry. "The knowledge within: Methods for data-
-free model compression." CVPR 2020.
+Y Blumenfeld, **I Hubara**, D Soudry _Towards Cheaper Inference in Deep Networks with Lower Bit-Width Accumulators_ ICLR 2024
 
-• Ron Banner, Itay Hubara, Elad Hoffer, and Daniel Soudry. Scalable methods for 8-bit training of neural
-networks (NIPS 2018)
-• Elad Hoffer, Itay Hubara, and Daniel Soudry. Fix your classifier:the marginal value of training the last
-weight layer (ICLR 2018)
+• Chmiel, B., **Hubara, I.**, Banner, R., & Soudry, D. (2022). _Optimal Fine-Grained N: M sparsity for
+Activations and Neural Gradients_. ICLR 2023.
 
-• Hoffer, E., Hubara I., & Soudry, C. D. Train longer, generalize better: closing the generalization gap in
-large batch training of neural networks (NIPS 2017)
-• Hubara I., Courbariaux, M., Soudry, C. D., El-Yaniv, R., & Bengio, Y. Quantized Neural Networks:
-Training Neural Networks with Low Precision Weights and Activations (Accepted to JMLR 2017)
-• Hubara I., Courbariaux, M., Soudry, C. D., El-Yaniv, R., & Bengio, Y. Binarized Neural Networks: Training
-Neural Networks with Weights and Activations Constrained to + 1 or −1 (NIPS 2016)
-• Bhonker, Nadav, Shai Rozenberg, and Itay Hubara. Playing SNES in the Retro Learning
-Environment. (ICLR 2016 workshop).
-• Soudry, D., Hubara, I., & Meir, R. (2014). Expectation backpropagation: parameter-free training of
-multilayer neural networks with continuous or discrete weights. (NIPS 2014)
+• **Hubara, I.**, Chmiel, B., Island, M., Banner, R., Naor, S., Soudry, D., _Accelerated Sparse Neural Training: A
+Provable and Efficient Method to Find N: M Transposable Masks._ NeurIPS 2021
+
+• **Hubara, I.**, Nahshan, Y., Hanani, Y., Banner, R., & Soudry, D. A_ccurate Post Training Quantization With
+Small Calibration Sets._ ICML 2021
+
+• Hoffer, E., Ben-Nun, T., **Hubara, I**., Giladi, N., Hoefler, T., & Soudry, D. _Augment Your Batch: Improving
+Generalization Through Instance Repetition_. CVPR 2020
+
+• Haroush, Matan, **Itay Hubara**, Elad Hoffer, and Daniel Soudry. _The knowledge within: Methods for data-
+free model compression._ CVPR 2020.
+
+• Ron Banner, **Itay Hubara**, Elad Hoffer, and Daniel Soudry. _Scalable methods for 8-bit training of neural
+networks_ (NIPS 2018)
+
+• Elad Hoffer, **Itay Hubara**, and Daniel Soudry. _Fix your classifier:the marginal value of training the last
+weight layer_ (ICLR 2018)
+
+• Hoffer, E., **Hubara I.**, & Soudry, C. D. T_rain longer, generalize better: closing the generalization gap in
+large batch training of neural networks_ (NIPS 2017)
+
+• **Hubara I.**, Courbariaux, M., Soudry, C. D., El-Yaniv, R., & Bengio, Y. _Quantized Neural Networks:
+Training Neural Networks with Low Precision Weights and Activations_ (JMLR 2017)
+
+• **Hubara I.**, Courbariaux, M., Soudry, C. D., El-Yaniv, R., & Bengio, Y. _Binarized Neural Networks: Training
+Neural Networks with Weights and Activations Constrained to + 1 or −1_ (NIPS 2016)
+
+• Bhonker, Nadav, Shai Rozenberg, and **Itay Hubara**. _Playing SNES in the Retro Learning
+Environment_. (ICLR 2016 workshop).
+
+• Soudry, D., **Hubara, I.**, & Meir, R. (2014). _Expectation backpropagation: parameter-free training of
+multilayer neural networks with continuous or discrete weights._ (NIPS 2014)
+
 • Additional publication can be found at: https://scholar.google.com/citations?user=dyYryZYAAAAJ&hl=en
   
 Patents
