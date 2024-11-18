@@ -1,54 +1,60 @@
-<html>
-<head>
-    <title>Portfolio Item</title>
-    <script>
-        async function loadCSV() {
-            try {
-                const response = await fetch('./assets/data.csv'); // Adjust the path as needed
-                if (!response.ok) throw new Error('Failed to fetch CSV');
-                const csvText = await response.text();
+---
+title: "Portfolio item number 2"
+excerpt: "Short description of portfolio item number 2"
+collection: portfolio
+---
 
-                const rows = csvText.split('\n').map(row => row.split(','));
+# Portfolio Item Number 2
 
-                // Locate the placeholder
-                const container = document.getElementById('csv-container');
+This is a detailed description of portfolio item number 2.
 
-                // Create a table
-                const table = document.createElement('table');
-                table.border = "1";
+## CSV Data Table
 
-                // Populate the table
-                rows.forEach((row, index) => {
-                    const tr = document.createElement('tr');
-                    row.forEach(cell => {
-                        const cellElement = document.createElement(index === 0 ? 'th' : 'td');
-                        cellElement.textContent = cell.trim();
-                        tr.appendChild(cellElement);
-                    });
-                    table.appendChild(tr);
+<div id="csv-container">
+    <!-- The table will be inserted here by JavaScript -->
+</div>
+
+<script>
+    async function loadCSV() {
+        try {
+            // Adjust the path to where the CSV file is located
+            const response = await fetch('/assets/data.csv'); // Make sure this path is correct
+            if (!response.ok) throw new Error('Failed to fetch CSV');
+            const csvText = await response.text();
+
+            // Split the CSV into rows
+            const rows = csvText.split('\n').map(row => row.split(','));
+
+            // Find the placeholder div to insert the table
+            const container = document.getElementById('csv-container');
+
+            // Create the table element
+            const table = document.createElement('table');
+            table.border = "1"; // Add a border for better visibility
+
+            // Loop through the rows of CSV and create table rows
+            rows.forEach((row, index) => {
+                const tr = document.createElement('tr');
+
+                // Create table data (td) or header (th) based on row index
+                row.forEach(cell => {
+                    const cellElement = document.createElement(index === 0 ? 'th' : 'td');
+                    cellElement.textContent = cell.trim();
+                    tr.appendChild(cellElement);
                 });
 
-                // Add the table to the placeholder
-                container.appendChild(table);
-            } catch (error) {
-                console.error('Error loading CSV:', error);
-                document.getElementById('csv-container').textContent = 'Error loading CSV file.';
-            }
+                // Append the row to the table
+                table.appendChild(tr);
+            });
+
+            // Append the table to the placeholder div
+            container.appendChild(table);
+        } catch (error) {
+            console.error('Error loading CSV:', error);
+            document.getElementById('csv-container').textContent = 'Error loading CSV file.';
         }
+    }
 
-        // Run the script when the page loads
-        window.onload = loadCSV;
-    </script>
-</head>
-<body>
-    <h1>This is a portfolio item</h1>
-    <p>This section describes the portfolio item. You can add images, text, etc.</p>
-
-    <!-- This is the placeholder for the CSV table -->
-    <div id="csv-container">
-        <!-- The table will be inserted here by JavaScript -->
-    </div>
-
-    <!-- Optionally, you can add more content below the table -->
-</body>
-</html>
+    // Run the function to load the CSV when the page loads
+    window.onload = loadCSV;
+</script>
