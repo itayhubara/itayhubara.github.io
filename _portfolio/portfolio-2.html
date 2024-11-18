@@ -16,10 +16,14 @@ This is a detailed description of portfolio item number 2.
 
 <script>
     async function loadCSV() {
-        const response = await fetch('/assets/data.csv');  // Adjust file path as needed
-        if (!response.ok) throw new Error('Failed to fetch CSV');
-        const csvText = await response.text();
-        console.log('CSV Data:', csvText);  // Check if the CSV data is fetched
+        try {
+            const response = await fetch('/assets/data.csv');  // Adjust file path as needed
+            if (!response.ok) throw new Error('Failed to fetch CSV');
+            const csvText = await response.text();
+            console.log('CSV Data:', csvText);  // Check if the CSV data is fetched
+        } catch (error) {
+            console.error('Error loading CSV:', error);  // Catch and log any errors
+        }
     }
 
     window.onload = loadCSV;
