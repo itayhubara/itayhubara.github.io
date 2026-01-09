@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Itay Hubara"
   avatar           : "bio-photo.jpg"
-  bio              : "Itay Hubara is a senior research scientist at Habana Labs, a company that develops AI accelerators for deep learning. Itay received his PhD from the Technion-Israel Institute of Technology. Itay research is focused on deep neural network acceleration for tasks such as generative AI, NLP, speech, and computer vision. He is one of the contributors to the MLPerf inference and training benchmarks, a standard for measuring the performance of machine learning systems. He has published several papers in top conferences and journals, such as NeurIPS, CVPR, ICLR, ICML, and JMLR, and has received more than 10,000 citations for his work. His research interests include deep learning, computer vision, and hardware-software co-design."
+  bio              : "Director of AI at a stealth-mode startup. PhD from the Technion. Formerly Principal Engineer at Habana Labs/Intel. My research focuses on General LLM efficiency, Agentic Workflows, RAG, and HW-SW co-design. Contributor to MLPerf with over 10,000 citations."
   location         : "Israel"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
