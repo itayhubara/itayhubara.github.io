@@ -10,7 +10,7 @@ redirect_from:
 
 I am Itay Hubara, a PhD graduate from the Technion - Israel Institute of Technology. I have more than 10 years of experience with deep learning. My research interests include binarized neural networks, quantized neural networks, model compression, large batch training and hardware-software co-design. I have published over 20 papers in top-tier conferences and journals, such as NeurIPS, ICML, CVPR, ICLR, and JMLR. I have also contributed to several open-source projects on GitHub.
 
-In 2025, I assumed the role of Director of AI at a stealth-mode startup, leading a team of applied researchers focused on General LLM research and efficiency and Agentic Workflows using proprietary data. We bridge the gap between foundational models and enterprise data by building context-aware agentic systems. Our approach utilizes the latest frameworks and methods, including diverse APIs, MCPs, advance RAG systems, and RLVR for fine-tuning.
+In 2025, I assumed the role of Director of AI at a stealth-mode startup, leading a team of applied researchers focused on General LLM research, efficiency, and Agentic Workflows using proprietary data. We bridge the gap between foundational models and enterprise data by building context-aware agentic systems. Our approach utilizes the latest frameworks and methods, including diverse APIs, MCPs, advance RAG systems, and RLVR for fine-tuning.
 
 Previously, I served as a Principal Engineer, Tech Lead, and Senior Researcher at Intel-Habana Labs, developing world-class AI processors for data centers. During my tenure, I contributed to MLPerf inference and training benchmarks and served as Habana's MLCommon representative. 
 
