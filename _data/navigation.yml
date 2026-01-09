@@ -6,11 +6,8 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
-    
   - title: "Portfolio"
-    url: /portfolio/
+    url: https://github.com/itayhubara?tab=repositories&q=&type=&language=&sort=stargazers
         
   - title: "Blog Posts"
     url: /year-archive/

@@ -18,7 +18,12 @@ Education
 
 Work experience
 ======
-* 2022- present Habana Labs and Intel; company, Principal engineer, Senior Researcher
+* 2025- Present: Stealth Mode Startup, Director of AI
+  * Leading a team of applied researchers and engineers.
+  * Developing General LLM, Agentic Workflows, and RAG systems.
+  * Utilizing MCP, RLVR, and proprietary data for advanced AI solutions.
+
+* 2022- 2025 Habana Labs and Intel; company, Principal engineer, Senior Researcher
   * 2016-2021 Habana Labs, Senior Researcher (US branch)
   • Research and development- focused on Compressing and speeding up Deep Neural Network algorithms.
   • Leading Habana’s MLPerf submissions and benchmarking efforts.
