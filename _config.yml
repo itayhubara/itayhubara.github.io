@@ -85,7 +85,6 @@ author:
   bio              : "Director of AI at a stealth-mode startup. PhD from the Technion. Formerly Principal Engineer at Habana Labs/Intel. My research focuses on General LLM efficiency, Agentic Workflows, RAG, and HW-SW co-design. Contributor to MLPerf with over 10,000 citations."
   location         : "Israel"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=dyYryZYAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -103,7 +102,6 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   LinkedIn         : "https://www.linkedin.com/in/itay-hubara-57739b29/?originalSubdomain=il"
-  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
